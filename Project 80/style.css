@@ -1,0 +1,57 @@
+#header{
+    text-align: center;
+}
+
+.para_input{
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+#Get_para_one{
+    margin-top: 10px;
+}
+
+.para_input_housing{
+    width: 49%;
+}
+
+.topnav {
+	overflow: hidden;
+	background-color: #333;
+	position:sticky;
+	top: 0;
+    width: 100%;
+  }
+  
+  .topnav a {
+	float: left;
+	color: #f2f2f2;
+	font-family: cursive;
+	text-align: center;
+	padding: 14px 16px;
+	text-decoration: none;
+	font-size: 17px;
+  }
+  
+  .topnav a:hover {
+	background-color: #bbb;
+	color: black;
+  }
+
+  .topnav-right {
+	float: right;
+  }
+
+  .row::after {
+	content: "";
+	clear: both;
+	display: table;
+  }
+  
+  #head{
+      text-align: center;
+  }
+
+  #para_header{
+      text-align: center;
+  }

@@ -1,0 +1,26 @@
+#perimeter{
+    text-align: left;
+    border-color: aquamarine;
+    border-width: 10px;
+    border-style: double;
+    height: fit-content;
+    width: fit-content;
+    background-color: rgb(255, 151, 151);
+    color: white;
+}
+
+
+#area{
+    text-align: left;
+    border-color: aquamarine;
+    border-width: 10px;
+    border-style: double;
+    height: fit-content;
+    width: fit-content;
+    background-color: rgb(255, 151, 151);
+    color: white;
+}
+
+h1{
+    text-align: center;
+}
