@@ -1,0 +1,101 @@
+/*All import tags are in the HTML head section*/
+
+body {
+  font-family: Arial;
+  margin: 0;
+}
+
+/* Header/Logo Title */
+
+.header {
+  padding: 0.1;
+  background-image: linear-gradient(#4d97ff, #2f9439);
+  color: white;
+}
+
+#head{
+  text-align: center;
+  font-size: 80px;
+  font-family: 'Nunito', sans-serif;
+}
+
+
+.content {
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+#tutorialHead{
+  text-align: center;
+  font-size: 40px;
+  padding-top: 0.1;
+  font-family: 'Roboto Slab', serif;
+}
+
+#tutorialText, .tutorialLinks{
+  text-align: left;
+  font-size: 22.5px;
+  padding-top: 0.1;
+  margin: 0px !important;
+  font-family: 'PT Sans', sans-serif;
+}
+
+
+.content>div{
+  flex: 1 1 150px;
+  height: fit-content;
+  padding-top: 0.1;
+
+}
+
+
+
+.copy_right_footer{
+  position: fixed;
+  color: white;
+  bottom: 0;
+  width:100%;
+  background-color: grey;
+  line-height: 2.5;
+  text-align: center;
+}
+
+
+#previousButton{
+  float: left !important;
+  border-bottom-left-radius: 100px !important;
+  border-top-left-radius: 100px !important;
+  cursor:pointer;
+}
+
+#nextButton{
+  float: right !important;
+  border-bottom-right-radius: 100px !important;
+  border-top-right-radius: 100px !important;
+  cursor:pointer;
+}
+
+.navButton{
+  font-size: 24px;
+  background-color: white;
+  color:#4d97ff;
+  font-family: 'Nunito Sans', sans-serif !important;
+  border-width: 5px;
+  border-color: seagreen;
+  border-style: solid;
+  opacity: 70%;
+  cursor:pointer;
+}
+
+.navButton:hover{
+  opacity: 100% !important;
+  cursor:pointer;
+}
+
+
+.tutorialLinks{
+  text-decoration-line: none !important;
+  font-family: 'Montserrat', sans-serif !important;
+  color: black !important;
+  cursor: pointer;
+}
