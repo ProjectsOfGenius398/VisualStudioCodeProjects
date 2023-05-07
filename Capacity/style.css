@@ -1,0 +1,29 @@
+#basic{
+    height: fit-content;
+    width: fit-content;
+    border-width: 10px;
+    border-style: solid;
+    border-color: #5e9cff;
+    background-color:rgba(94, 255, 73, 0.623);
+    color: rgb(255, 0, 255);
+}
+
+#quiz{
+    height: fit-content;
+    width: 750px;
+    border-width: 10px;
+    border-style: solid;
+    background-color: #5e9cff;
+    border-color:rgba(94, 255, 73, 0.623);
+    color: white;
+}
+
+#basic:hover{
+    height: fit-content;
+    width: fit-content;
+    border-width: 5px;
+    border-style: groove;
+    border-color: #ff8cc5;
+    background-color:rgb(183, 121, 255);
+    color: rgb(255, 255, 255);
+}

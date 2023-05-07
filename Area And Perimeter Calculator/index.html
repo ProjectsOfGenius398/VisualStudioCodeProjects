@@ -1,0 +1,54 @@
+<html>
+
+<head>
+    <link rel="stylesheet" href="style.css">
+    <title>Area and Perimeter Calculator</title>
+    <script src="main.js"></script>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Hubballi&display=swap');
+        @import url('https://fonts.googleapis.com/css2?family=League+Spartan:wght@300&display=swap');
+        @import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@1,300&display=swap');
+    </style>
+</head>
+
+<body onload="square()">
+    <div class="header">
+        <h1 id="head">Area and Perimeter Calculator</h1>
+    </div>
+
+
+
+    <div class="content">
+
+        <div class="textDiv">
+            <h3 class="Text">Welcome! Choose a shape, enter the dimentions and get started!</h3>
+        </div>
+
+        <div class="dropdownDiv">
+            <span id="dropDownShape">
+                <select id="selectShape" onchange="shapeChange()">
+                    <option value="squa" class="shapeOptions">Square</option>
+                    <option value="rect" class="shapeOptions">Rectangle</option>
+                </select>
+            </span>
+        </div>
+
+        <div class="textBoxesDiv">
+            <input type="text" class="dimentionInput" placeholder="" id="input1">
+            <input type="text" class="dimentionInput" placeholder="" id="input2">
+        </div>
+
+        <h2 id="perimeterResult" class="resultText"></h2>
+        <h2 id="areaResult" class="resultText"></h2>
+        
+    <button id="confirm" onclick="calculate()">Calculate</button>
+    </div>
+
+
+    <!--COPYRIGHT-->
+    <div class="copy_right_footer">
+        Developed with ❤ by <a href="https://github.com/genius398" target="_blank">contributors</a>
+    </div>
+</body>
+
+</html>

@@ -1,0 +1,78 @@
+/*All import tags are in the HTML head section*/
+
+body {
+    font-family: Arial;
+    margin: 0;
+}
+  
+  /* Header/Logo Title */
+
+.header {
+    padding: 0.1;
+    background-color: #4d97ff;
+    color: white;
+}
+
+#head{
+    text-align: center;
+    font-size: 80px;
+    font-family: 'Nunito', sans-serif;
+}
+  
+
+.content {
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+
+
+.content>div{
+    flex: 1 1 150px;
+    height: fit-content;
+    padding-top: 0.1;
+
+}
+
+.copy_right_footer{
+    position: fixed;
+    color: white;
+    bottom: 0;
+    width:100%;
+    background-color: grey;
+    line-height: 2.5;
+    text-align: center;
+}
+
+.text{
+    font-family: 'Hubballi', cursive;
+    text-align: center;
+    font-size: xx-large;
+}
+
+.dropDownDiv{
+    text-align: center;
+}
+
+#selectShape{
+    font-family: 'League Spartan', sans-serif;
+    font-size: xx-large;
+    border-radius: 0px;
+}
+
+#dropDownShape{
+    padding-right: 9px;
+}
+
+.textBoxesDiv{
+    text-align: center;
+}
+
+.dimentionInput{
+    padding-top: 5px;
+}
+
+.resultText{
+    font-family: 'Nunito', sans-serif;
+    font-size: larger;
+}

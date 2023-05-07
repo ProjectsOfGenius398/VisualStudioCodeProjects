@@ -1,0 +1,23 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@100&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap');
+
+body{
+    background-image: url(pexels-felix-mittermeier-956981.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.mainTextHead{
+    text-align: center;
+    font-size: 65px !important;
+    color:black;
+    font-family: 'Brush Script MT', cursive;
+    color: white;
+}
+
+.bodyText{
+    font-family: 'Open Sans', sans-serif;
+    line-height: normal;
+    color: white;
+}
