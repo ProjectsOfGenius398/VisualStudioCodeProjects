@@ -1,0 +1,83 @@
+
+
+#one{
+    text-align: center;
+    border-radius: 10px;
+    border-width: 10px;
+    background-color: lime;
+    border-color: rgb(255, 173, 255);
+    height: fit-content;
+    width: fit-content;
+    border-style: double;
+}
+
+#oneOne{
+    color:#ff7e75;
+}
+
+#oneTwo{
+    color: #ff7e75;
+}
+
+#two{
+    text-align: center;
+    border-radius: 10px;
+    border-width: 10px;
+    background-color: magenta;
+    border-color: limegreen;
+    height: fit-content;
+    width: fit-content;
+    border-style: dashed;
+}
+
+#twoOne{
+    color: white;
+}
+
+#twoTwo{
+    color:white;
+}
+
+
+#three{
+    text-align: center;
+    border-radius: 10px;
+    border-width: 10px;
+    background-color: green;
+    border-color: rgb(255, 0, 179);
+    height: fit-content;
+    width: 1300px;
+    border-style: dotted;
+}
+
+h1{
+    text-align: center;
+    color: white;
+}
+
+#head{
+    color: black;
+}
+
+#four{
+    text-align: center;
+    border-radius: 10px;
+    border-width: 10px;
+    background-color: rgb(0, 55, 128);
+    border-color: rgb(81, 255, 0);
+    height: fit-content;
+    width: 1300px;
+    border-style: double;
+}
+
+
+#five{
+    text-align: center;
+    border-radius: 10px;
+    border-width: 10px;
+    background-color: rgb(255, 0, 0);
+    border-color: rgb(255, 154, 238);
+    height: fit-content;
+    width: 1300px;
+    border-style: groove;
+}
