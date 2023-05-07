@@ -1,0 +1,41 @@
+body {
+    font-family: Arial;
+    margin: 0;
+}
+  
+  /* Header/Logo Title */
+
+.header {
+    padding: 0.1;
+    background-color: #4d97ff;
+    color: white;
+}
+
+#head{
+    text-align: center;
+    font-size: 80px;
+    font-family: 'Nunito', sans-serif;
+}
+  
+
+.content {
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.content>div{
+    flex: 1 1 150px;
+    height: fit-content;
+    padding-top: 0.1;
+
+}
+
+#tutorialHead{
+    text-align: center;
+    font-size: xx-large;
+}
+
+#tutorialText{
+    width: 100%;
+    flex: 1 1 150px;
+}
